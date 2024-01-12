@@ -8,11 +8,27 @@ let package = Package(
     products: [
         .library(
             name: "TestFramework",
-            targets: ["TestFramework"]),
+            targets: ["TestFrameworkWrapper"]
+        ),
+    ],
+    dependencies: [
+        .package(
+            url: "https://github.com/onevcat/Kingfisher",
+            exact: "7.10.1"
+        )
     ],
     targets: [
+        .target(
+            name: "TestFrameworkWrapper",
+            dependencies: [
+                .product(name: "Kingfisher", package: "Kingfisher"),
+                .target(name: "TestFramework")
+            ],
+            path: "Sources/TestFrameworkWrapper"
+        ),
         .binaryTarget(
             name: "TestFramework",
-            path: "TestFramework.xcframework")
+            path: "TestFramework.xcframework"
+        )
     ]
 )
