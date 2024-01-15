@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TestFramework-Swift.h</key>
 		<data>
-		IRSIPNSWmbf1dde02sKe+1kpo4o=
+		27sE6SWuQr1wUSxhWRQdBSVNnDo=
 		</data>
 		<key>Headers/TestFramework.h</key>
 		<data>
@@ -14,15 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DF42yRQvfJ9yYnb5AUJ1m0xl7Dg=
+		0mK4HjRvj4NLaKWnmgZBYmAbCWA=
+		</data>
+		<key>Main.storyboardc/Info.plist</key>
+		<data>
+		VNNQJdsLVO2kuw18GCUYKn9cqRk=
+		</data>
+		<key>Main.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
+		<data>
+		qJalFpt7K97U7HaOSOrU+D+yQng=
+		</data>
+		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		MKa23tYG4okCxs9kORuv5BFmT+o=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		yfxl5ybypk8lxgo42oglDHBAls4=
+		c7CH6wrstZ95I47d73FGaRu6rto=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JMkDgsilypMuzJZRfBZc0IRyV4Y=
+		16InnZ9wNvBzuFg/NT0BzpApjmw=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +42,11 @@
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JMkDgsilypMuzJZRfBZc0IRyV4Y=
+		16InnZ9wNvBzuFg/NT0BzpApjmw=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		sLxU4VfYpuRvPoueMl7jbBvfN2w=
+		qPqjdhhsSk2tZrUxFbnju6liOXA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C2c8F/wVer6HmW1mTpLUZORxagzbbhjlzJYfZUd/Vfo=
+			+B8kwhnKprGMe+wgNNbmVkvSGUY/kDwtAnnHlKi26B8=
 			</data>
 		</dict>
 		<key>Headers/TestFramework.h</key>
@@ -57,18 +69,39 @@
 			Yjrhw1WK2rcdEM1dLo0PmLEPx3Rz2dl5h38HSc52Kic=
 			</data>
 		</dict>
+		<key>Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T4UDtGUXhEjznR+mec/r4oAF7OaHbt1BoF21vWt8YUE=
+			</data>
+		</dict>
+		<key>Main.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jl5U+x/VlkJq3HrCSLPQvqjzHgMM9wjtK0QUAsv04aw=
+			</data>
+		</dict>
+		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Sd0jfC/gsUWPGiEezWtalgxF2rr/eL+5KXU3XnbcAyg=
+			</data>
+		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+tuIAoNqWaGI/w2kc4MZpwCIiawiNUkS2XzHWgYfsAI=
+			DXspvybh7tOMxVURsFF602ZJd9EYg1apeHCQZW/4MXQ=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AlzM5ACT2AQd6VXbVejeDv0sBh1BcIV8oRxCuc8Fi2M=
+			/G4nu3Kvkwt9F4FXrLT8duztsKKX6T0lwS2uGq/0jWo=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AlzM5ACT2AQd6VXbVejeDv0sBh1BcIV8oRxCuc8Fi2M=
+			/G4nu3Kvkwt9F4FXrLT8duztsKKX6T0lwS2uGq/0jWo=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LVbvhn3u6fdMI0HOm6rwpjZ0Kaq4c53eU8BFiHQqbTg=
+			f0hzkrmatrnjeCA0tIJU1l5181pUvt3s+efltkhc7sU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
