@@ -7,8 +7,8 @@ let package = Package(
     name: "TestSwiftPackage",
     products: [
         .library(
-            name: "TestFramework",
-            targets: ["TestFrameworkWrapper"]
+            name: "TestSwiftPackage",
+            targets: ["TestSwiftPackage", "TestFramework"]
         ),
     ],
     dependencies: [
@@ -19,12 +19,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "TestFrameworkWrapper",
-            dependencies: [
-                .product(name: "Kingfisher", package: "Kingfisher"),
-                .target(name: "TestFramework")
-            ],
-            path: "Sources/TestFrameworkWrapper"
+            name: "TestSwiftPackage",
+            dependencies: ["Kingfisher"]
         ),
         .binaryTarget(
             name: "TestFramework",
