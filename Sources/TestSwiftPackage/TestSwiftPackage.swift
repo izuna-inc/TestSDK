@@ -6,7 +6,7 @@ import Amplify
 import TestFramework
 
 public class SourceTest {
-    public func testAmplify() {
+    static public func testAmplify() {
         do {
             try Amplify.configure()
             print("Success")
@@ -15,7 +15,7 @@ public class SourceTest {
         }
     }
 
-    public func callXCFrameworkFunction () {
+    static public func callXCFrameworkFunction () {
         XCFrameworkTest.printTest()
     }
 }
