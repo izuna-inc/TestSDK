@@ -87,6 +87,27 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "testKingfisher",
+            "printedName": "testKingfisher()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework14ViewControllerC14testKingfisheryyF",
+            "mangledName": "$s13TestFramework14ViewControllerC14testKingfisheryyF",
+            "moduleName": "TestFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(nibName:bundle:)",
@@ -269,19 +290,9 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Kingfisher",
-        "printedName": "Kingfisher",
-        "declKind": "Import",
-        "moduleName": "TestFramework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
         "kind": "TypeDecl",
-        "name": "Test",
-        "printedName": "Test",
+        "name": "XCFrameworkTest",
+        "printedName": "XCFrameworkTest",
         "children": [
           {
             "kind": "Function",
@@ -295,145 +306,25 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13TestFramework0A0C05printA0yyF",
-            "mangledName": "$s13TestFramework0A0C05printA0yyF",
+            "usr": "s:13TestFramework011XCFrameworkA0C05printA0yyFZ",
+            "mangledName": "$s13TestFramework011XCFrameworkA0C05printA0yyFZ",
             "moduleName": "TestFramework",
+            "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "kingfisherTest",
-            "printedName": "kingfisherTest()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13TestFramework0A0C010kingfisherA0yyF",
-            "mangledName": "$s13TestFramework0A0C010kingfisherA0yyF",
-            "moduleName": "TestFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "printTest2",
-            "printedName": "printTest2()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13TestFramework0A0C10printTest2yyF",
-            "mangledName": "$s13TestFramework0A0C10printTest2yyF",
-            "moduleName": "TestFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Test",
-                "printedName": "TestFramework.Test",
-                "usr": "c:@M@TestFramework@objc(cs)Test"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@TestFramework@objc(cs)Test(im)init",
-            "mangledName": "$s13TestFramework0A0CACycfc",
-            "moduleName": "TestFramework",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@TestFramework@objc(cs)Test",
-        "mangledName": "$s13TestFramework0A0C",
+        "usr": "s:13TestFramework011XCFrameworkA0C",
+        "mangledName": "$s13TestFramework011XCFrameworkA0C",
         "moduleName": "TestFramework",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       }
     ],
     "json_format_version": 8
@@ -442,44 +333,37 @@
     {
       "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 393,
-      "length": 14,
-      "value": "\"This is test\""
-    },
-    {
-      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 438,
-      "length": 27,
-      "value": "\"https:\/\/picsum.photos\/200\""
-    },
-    {
-      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 623,
+      "offset": 513,
       "length": 6,
       "value": "\"Main\""
     },
     {
       "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 693,
       "length": 55,
       "value": "\"ViewController cannot be instantiated from storyboard\""
     },
     {
-      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/Test.swift",
+      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 213,
-      "length": 15,
-      "value": "\"TestFramework\""
+      "offset": 853,
+      "length": 14,
+      "value": "\"This is test\""
     },
     {
-      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/Test.swift",
+      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 333,
-      "length": 12,
-      "value": "\"printTest2\""
+      "offset": 898,
+      "length": 27,
+      "value": "\"https:\/\/picsum.photos\/200\""
+    },
+    {
+      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/XCFrameworkTest.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 32,
+      "value": "\"XCFramework function is called\""
     }
   ]
 }

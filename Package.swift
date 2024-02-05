@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "TestSwiftPackage",
+    platforms: [
+        .iOS(.v16)
+    ],
     products: [
         .library(
             name: "TestSwiftPackage",

@@ -12,14 +12,12 @@ import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) public static func initWithStoryboard() -> TestFramework.ViewController
+  @_Concurrency.MainActor(unsafe) public func testKingfisher()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class Test : ObjectiveC.NSObject {
-  public func printTest()
-  public func kingfisherTest()
-  public func printTest2()
-  @objc override dynamic public init()
+@_hasMissingDesignatedInitializers public class XCFrameworkTest {
+  public static func printTest()
   @objc deinit
 }
