@@ -315,6 +315,29 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfiguration",
+            "printedName": "getConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework011XCFrameworkA0C16getConfiguration10Foundation4DataVyFZ",
+            "mangledName": "$s13TestFramework011XCFrameworkA0C16getConfiguration10Foundation4DataVyFZ",
+            "moduleName": "TestFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -364,6 +387,20 @@
       "offset": 193,
       "length": 32,
       "value": "\"XCFramework function is called\""
+    },
+    {
+      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/XCFrameworkTest.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 22,
+      "value": "\"amplifyconfiguration\""
+    },
+    {
+      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/XCFrameworkTest.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 6,
+      "value": "\"json\""
     }
   ]
 }

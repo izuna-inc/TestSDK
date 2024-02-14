@@ -15,6 +15,11 @@ public class SourceTest {
         }
     }
 
+    static public func getConfiguration() {
+        let configData = XCFrameworkTest.getConfiguration()
+        print(configData.description)
+    }
+
     static public func callXCFrameworkFunction () {
         XCFrameworkTest.printTest()
     }

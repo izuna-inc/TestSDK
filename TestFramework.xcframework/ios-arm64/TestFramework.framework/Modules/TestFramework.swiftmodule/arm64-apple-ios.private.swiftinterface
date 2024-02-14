@@ -19,5 +19,6 @@ import _SwiftConcurrencyShims
 }
 @_hasMissingDesignatedInitializers public class XCFrameworkTest {
   public static func printTest()
+  public static func getConfiguration() -> Foundation.Data
   @objc deinit
 }
