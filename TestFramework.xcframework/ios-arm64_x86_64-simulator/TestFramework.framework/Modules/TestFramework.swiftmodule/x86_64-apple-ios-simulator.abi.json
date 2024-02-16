@@ -391,14 +391,14 @@
     {
       "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/XCFrameworkTest.swift",
       "kind": "StringLiteral",
-      "offset": 339,
+      "offset": 407,
       "length": 22,
       "value": "\"amplifyconfiguration\""
     },
     {
       "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/XCFrameworkTest.swift",
       "kind": "StringLiteral",
-      "offset": 378,
+      "offset": 446,
       "length": 6,
       "value": "\"json\""
     }
