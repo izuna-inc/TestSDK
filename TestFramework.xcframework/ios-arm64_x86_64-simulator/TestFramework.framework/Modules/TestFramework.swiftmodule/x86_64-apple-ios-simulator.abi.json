@@ -391,16 +391,9 @@
     {
       "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/XCFrameworkTest.swift",
       "kind": "StringLiteral",
-      "offset": 401,
-      "length": 22,
-      "value": "\"amplifyconfiguration\""
-    },
-    {
-      "filePath": "\/Users\/sokuno\/git\/TestFramework\/TestFramework\/TestFramework\/XCFrameworkTest.swift",
-      "kind": "StringLiteral",
-      "offset": 440,
-      "length": 6,
-      "value": "\"json\""
+      "offset": 313,
+      "length": 921,
+      "value": "\"{\n    \"UserAgent\": \"aws-amplify-cli\/2.0\",\n    \"Version\": \"1.0\",\n    \"auth\": {\n        \"plugins\": {\n            \"awsCognitoAuthPlugin\": {\n                \"IdentityManager\": {\n                    \"Default\": {}\n                },\n                \"CognitoUserPool\": {\n                    \"Default\": {\n                        \"PoolId\": \"us-east-1_xxxxxxxx\",\n                        \"AppClientId\": \"xxxxxxxxxxxxxxxxxxxxxxxxxx\",\n                        \"Region\": \"us-east-1\"\n                    }\n                },\n                \"Auth\": {\n                    \"Default\": {\n                        \"authenticationFlowType\": \"USER_SRP_AUTH\"\n                    }\n                }\n            }\n        }\n    }\n}\""
     }
   ]
 }
