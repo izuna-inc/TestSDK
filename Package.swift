@@ -16,10 +16,6 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/onevcat/Kingfisher",
-            exact: "7.10.1"
-        ),
-        .package(
             url: "https://github.com/aws-amplify/amplify-swift", 
             exact: "2.25.4")
     ],
@@ -27,7 +23,6 @@ let package = Package(
         .target(
             name: "TestSwiftPackage",
             dependencies: [
-                "Kingfisher",
                 .product(name: "Amplify", package: "amplify-swift")
             ]
         ),
