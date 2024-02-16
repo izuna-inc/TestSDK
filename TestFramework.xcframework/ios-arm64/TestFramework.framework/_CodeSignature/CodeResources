@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		UhCZXWccQHUGQC6Uanvx9kihD+o=
+		ZWmA7XPHVb7V3OgKZi2cO2Peoko=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -52,15 +52,15 @@
 		<data>
 		JhdjwpXAhckeNcHzfqkTNm1btkY=
 		</data>
-		<key>amplifyconfiguration.json</key>
-		<data>
-		L7uZOYSj/CQwO+ftPrnzkbIN2QM=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/TestFramework-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			O+ihU1qkyYwZvxJyGyfoi0rUia4=
+			</data>
 			<key>hash2</key>
 			<data>
 			McdacD1REcZhPf7zxytlsR51NNqA5dSO+5jXjmAEdoQ=
@@ -68,6 +68,10 @@
 		</dict>
 		<key>Headers/TestFramework.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			A7VlquXNjQyz+Nex4mY07WOovz8=
+			</data>
 			<key>hash2</key>
 			<data>
 			Yjrhw1WK2rcdEM1dLo0PmLEPx3Rz2dl5h38HSc52Kic=
@@ -75,6 +79,10 @@
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VNNQJdsLVO2kuw18GCUYKn9cqRk=
+			</data>
 			<key>hash2</key>
 			<data>
 			T4UDtGUXhEjznR+mec/r4oAF7OaHbt1BoF21vWt8YUE=
@@ -82,6 +90,10 @@
 		</dict>
 		<key>Main.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qJalFpt7K97U7HaOSOrU+D+yQng=
+			</data>
 			<key>hash2</key>
 			<data>
 			Jl5U+x/VlkJq3HrCSLPQvqjzHgMM9wjtK0QUAsv04aw=
@@ -89,6 +101,10 @@
 		</dict>
 		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MKa23tYG4okCxs9kORuv5BFmT+o=
+			</data>
 			<key>hash2</key>
 			<data>
 			Sd0jfC/gsUWPGiEezWtalgxF2rr/eL+5KXU3XnbcAyg=
@@ -96,13 +112,21 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ZWmA7XPHVb7V3OgKZi2cO2Peoko=
+			</data>
 			<key>hash2</key>
 			<data>
-			kgIEJYJexxE0xJsJxbZ4nOvOXh2GPZTrfOwvz9pzzsE=
+			EIYFTziGaQ/mWDIzLNxEc0IzFN3yrNvKdF/c6EtbdvY=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hnGURwuzRU6NrQJQmowDdycQB6s=
+			</data>
 			<key>hash2</key>
 			<data>
 			fRoGz0hOhx8iF3DSSBrx1zd7sWQgP079G7YFbj78Vug=
@@ -110,6 +134,10 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3I9vXR+nIj4/ms72xsgwNG2ZMyc=
+			</data>
 			<key>hash2</key>
 			<data>
 			/h+j1BB1OCpKk4PUIzUiv5sLRbK7DeMS7y/eWDUETC0=
@@ -117,6 +145,10 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hnGURwuzRU6NrQJQmowDdycQB6s=
+			</data>
 			<key>hash2</key>
 			<data>
 			fRoGz0hOhx8iF3DSSBrx1zd7sWQgP079G7YFbj78Vug=
@@ -124,6 +156,10 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TsAQK1a2GnaT+6d0nFD9ZJ47Vd8=
+			</data>
 			<key>hash2</key>
 			<data>
 			RfFlORD5k0cQffHjC6phmgi5So5zrQGTnRU8jv0Ru60=
@@ -131,16 +167,13 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JhdjwpXAhckeNcHzfqkTNm1btkY=
+			</data>
 			<key>hash2</key>
 			<data>
 			dISce37OjqR2AzXI9ytbr/ra/L8nM+VK73+e/9b5ncM=
-			</data>
-		</dict>
-		<key>amplifyconfiguration.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5SE+NO9M3gLkYpkzab6Yt97cmR8CJOzWLAgVvce2ldU=
 			</data>
 		</dict>
 	</dict>
