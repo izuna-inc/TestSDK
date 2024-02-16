@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ZWmA7XPHVb7V3OgKZi2cO2Peoko=
+		61m0ZlOLGsPewbf7bTZhIHIeW/Q=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -114,11 +114,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZWmA7XPHVb7V3OgKZi2cO2Peoko=
+			61m0ZlOLGsPewbf7bTZhIHIeW/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			EIYFTziGaQ/mWDIzLNxEc0IzFN3yrNvKdF/c6EtbdvY=
+			c1unDUrAGqUY6AxN81MlkBIXNaUuWkOMMYbtIWA69Uw=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
