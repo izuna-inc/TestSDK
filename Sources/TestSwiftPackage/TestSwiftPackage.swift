@@ -15,9 +15,9 @@ public class SourceTest {
         }
     }
 
-    static public func getConfiguration() {
+    static public func printConfiguration() {
         let configData = XCFrameworkTest.getConfiguration()
-        print(configData.description)
+        print(String(data: configData, encoding: .utf8)!)
     }
 
     static public func callXCFrameworkFunction () {
